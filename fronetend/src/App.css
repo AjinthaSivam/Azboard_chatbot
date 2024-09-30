@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #921A40;
+  --primary-light: #B22150;
+  --primary-dark: #721433;
+  --secondary-color: #F8E5E9;
+  --text-color: #333;
+  --bot-message-bg: #F8E5E9;
+  --user-message-bg: #E6F2FF;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #F8E5E9;
+}
